@@ -11,7 +11,7 @@
   <p align="center">
     Uma aplicação de ERP para gerenciamento de uma empresa multi-loja.
     <br />
-    <a href="https://github.com/pedrogomes30/Projeto-ERP-em-PHP/blob/master/Documenta%C3%A7%C3%A3o/Diagramas/diagramas.md"><strong>Diagrmas »</strong></a>
+    <a href="https://github.com/pedrogomes30/Projeto-ERP-em-PHP/blob/master/Documenta%C3%A7%C3%A3o/Diagramas/diagramas.md"><strong>Diagramas »</strong></a>
     <br />
     <br />
     <a href="https://github.com/pedrogomes30/Projeto-ERP-em-PHP/blob/master/Documenta%C3%A7%C3%A3o/docs.md">Documentação</a>
