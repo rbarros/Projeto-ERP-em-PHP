@@ -1,0 +1,22 @@
+.centralizar{
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+#cupom {
+    display:flex;
+    font-size:40px;
+    align-content: center;
+    align-items: center;
+}
+.CardBoxNoImage{
+    display:flex;
+    font-size:140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:60px ;
+    
+}
+.noProperty{
+    all: initial; 
+}

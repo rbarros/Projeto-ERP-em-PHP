@@ -1,0 +1,44 @@
+
+
+<html>
+<head>
+</head>
+<body>
+<p style="margin: 1px 0px; text-align: center;"><span style="font-size: 24pt;">Venda - {$id}</span></p>
+<p style="margin: 1px 0px; text-align: left;"><span style="font-size: 24pt;"> </span></p>
+<p style="margin: 1px 0px; text-align: left;"><span style="font-size: 14pt;">Data da venda: {$dt_venda}</span></p>
+<p style="margin: 1px 0px; text-align: left;"><span style="font-size: 14pt;">Vendedor: {$vendedor->nome}</span></p>
+<p style="margin: 1px 0px; text-align: left;"><span style="font-size: 14pt;">Cliente: {$cliente->nome}</span></p>
+<p style="margin: 1px 0px; text-align: left;"> </p>
+<p style="margin: 1px 0px; text-align: left;"> </p>
+<table class="mce-table" style="border-collapse: collapse; border: 1px solid #929292; height: 81px;" border="1" width="639" cellspacing="0" cellpadding="3" data-detailmodel="VendaItemAlt.venda_id">
+<thead>
+<tr style="background-color: #96c0e6;">
+<th style="width: 167px;">Produto</th>
+<th style="width: 169px;">Quantidade</th>
+<th style="width: 121px;">Valor</th>
+<th style="width: 153px;">Desconto</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #f0f0f0;">
+<td style="width: 167px;">{$produto->nome}</td>
+<td style="width: 169px;">{$quantidade}</td>
+<td style="width: 121px;">{$valor}</td>
+<td style="width: 153px;">{$desconto}</td>
+</tr>
+</tbody>
+<tfoot>
+<tr style="background-color: #cce3fb;">
+<td style="width: 167px;"> </td>
+<td style="width: 169px;">sum({$quantidade})</td>
+<td style="width: 121px;">sum({$valor})</td>
+<td style="width: 153px;">sum({$desconto})</td>
+</tr>
+</tfoot>
+</table>
+<p style="margin: 1px 0;"> </p>
+<p style="margin: 1px 0;">Valor total: {$valor_total}</p>
+<p style="margin: 1px 0;"> </p>
+</body>
+</html>
