@@ -70,7 +70,7 @@ principais requisitos:
 
 ### API's
 <ul>
-  <li><a href="https://developer.wordpress.com/docs/"> Wordpressr</a></li>
+  <li><a href="https://developer.wordpress.com/docs/"> Wordpress</a></li>
   <li><a href="https://woocommerce.com/documentation/"> WooComerce</a></li>
   <li><a href="https://docs.yithemes.com/"> Yith Pos</a></li>
   <li><a href="https://enotas.com.br/"> E-notas</a></li>
