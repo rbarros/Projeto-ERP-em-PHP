@@ -7,9 +7,7 @@ class Grupo extends TRecord
     const IDPOLICY   =  'serial'; // {max, serial}
 
     const clientes = '2';
-    const funcionarios = '4';
-
-    
+    const vendedores = '4';
 
     /**
      * Constructor method
@@ -18,7 +16,6 @@ class Grupo extends TRecord
     {
         parent::__construct($id, $callObjectLoad);
         parent::addAttribute('nome');
-            
     }
 
     /**
@@ -61,7 +58,7 @@ class Grupo extends TRecord
         {
             return $this->pessoa_fk_tipo_pessoa_to_string;
         }
-    
+
         $values = Pessoa::where('tipo_pessoa', '=', $this->id)->getIndexedArray('tipo_pessoa','{fk_tipo_pessoa->nome}');
         return implode(', ', $values);
     }
@@ -87,7 +84,7 @@ class Grupo extends TRecord
         {
             return $this->pessoa_cidade_to_string;
         }
-    
+
         $values = Pessoa::where('tipo_pessoa', '=', $this->id)->getIndexedArray('cidade_id','{cidade->nome}');
         return implode(', ', $values);
     }
@@ -113,7 +110,7 @@ class Grupo extends TRecord
         {
             return $this->pessoa_colaborador_to_string;
         }
-    
+
         $values = Pessoa::where('tipo_pessoa', '=', $this->id)->getIndexedArray('colaborador_id','{colaborador->id}');
         return implode(', ', $values);
     }
@@ -139,7 +136,7 @@ class Grupo extends TRecord
         {
             return $this->pessoa_grupo_grupo_to_string;
         }
-    
+
         $values = PessoaGrupo::where('grupo_id', '=', $this->id)->getIndexedArray('grupo_id','{grupo->nome}');
         return implode(', ', $values);
     }
@@ -165,11 +162,9 @@ class Grupo extends TRecord
         {
             return $this->pessoa_grupo_pessoa_to_string;
         }
-    
+
         $values = PessoaGrupo::where('grupo_id', '=', $this->id)->getIndexedArray('pessoa_id','{pessoa->nome}');
         return implode(', ', $values);
     }
 
-    
 }
-
