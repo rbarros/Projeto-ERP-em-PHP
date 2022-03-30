@@ -12,7 +12,9 @@
     "adianti/pdfdesigner": "dev-master",
     "pablodalloglio/ole": "dev-master",
     "pablodalloglio/spreadsheet_excel_writer": "dev-master",
-    "pablodalloglio/fpdf": "dev-master"
+    "pablodalloglio/fpdf": "dev-master",
+    "enotas/php-client-v2": "^1.0",
+    "telegram-bot/api": "^2.3"
   },
   "config": {
     "preferred-install": {
